@@ -11,4 +11,4 @@ a. Contribute information on a restaurant you're currently at.
 b. View the current wait times at local restaurants.
 "Pick a Place for Me" Feature:
 a. Input desired categories and cuisines, and preferred wait time and number of options.
-b. Receive suggestions for restaurants that match the specified criteria, thereby reducing the number of potential choices.
+b. Receive suggestions for restaurants that match the specified criteria, thereby reducing the number of potential choice.
