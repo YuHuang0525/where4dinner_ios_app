@@ -1,12 +1,14 @@
-import { View, Text, Image} from 'react-native'
+import { View, Text, Image, TouchableOpacity} from 'react-native'
 import React from 'react'
 
 export default function RestaurantItem() {
   return (
-    <View>
-        <RestaurantImage />
-        <RestaurantInfo />
-    </View>
+    <TouchableOpacity activeOpacity={1} style={{ marginBottom: 10 }}>
+        <View style={{ marginTop: 10, padding: 15, backgroundColor: "white" }}>
+            <RestaurantImage />
+            <RestaurantInfo />
+        </View>
+    </TouchableOpacity>
   )
 }
 
@@ -26,8 +28,23 @@ const RestaurantInfo = () => (
             justifyContent: "space-between", 
             alignItems: "center", 
             marginTop: 10}}>
-        <Text>Noble Chef</Text>
-        <Text>30-45 min</Text>
-        <Text>5.0</Text>
+        
+        <View> 
+            <Text style={{ fontSize: 15, fontWeight: "bold" }}>Noble Chef</Text>
+            <Text style={{ fontSize: 13, color: "gray" }}>30-45 min</Text>
+        </View>
+
+        <View
+            style={{
+            backgroundColor: "#82EEFD",
+            height: 30,
+            width: 30,
+            alignItems: "center",
+            justifyContent: "center",
+            borderRadius: 15
+            }}
+        >
+            <Text>5.0</Text>
+        </View>
     </View>
 )
