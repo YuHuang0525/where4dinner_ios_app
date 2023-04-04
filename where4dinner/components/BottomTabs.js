@@ -7,7 +7,7 @@ export default function BottomTabs() {
     <View style={{ flexDirection: "row", margin: 10, marginHorizontal: 30, justifyContent: "space-between" }}>
       <Icon icon="home" text="home" />
       <Icon icon="heart" text="liked" />
-      <Icon icon="user" text="account" />
+      <Icon icon="user" text="me" />
 
     </View>
   )
