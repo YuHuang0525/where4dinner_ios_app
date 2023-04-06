@@ -29,7 +29,7 @@ const HeaderButton = (props) => (
             backgroundColor: props.activeTab == props.Text ? "#63C5DA":"white",
             paddingVertical: 6,
             paddingHorizontal: 16,
-            borderRadius: 40
+            borderRadius: 35
         }}
         onPress={() => props.setActiveTab(props.Text)}    
     >
